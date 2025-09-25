@@ -14,7 +14,10 @@ uv run --env-file=.env jupyter notebook
 uv run --env-file=.env jupyter notebook
 ```
 
-
 ## Usefuls
 
-* Clean notebook for redistribution: [nbstripout](
+* Clean notebook for redistribution
+
+```bash
+jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace delta-example.ipynb
+```
