@@ -10,3 +10,8 @@ wheels/
 .venv
 
 .ipynb_checkpoints/
+
+metastore/
+spark-warehouse/
+
+*.log

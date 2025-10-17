@@ -23,7 +23,3 @@ Alternatively, open VS Code. You should have installed the Jupyter plugin (ms-to
 ```bash
 jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace delta-example.ipynb
 ```
-
-## Download dataset
-
-The dataset used can be downloaded from Kaggle: https://www.kaggle.com/datasets/jkraak/lego-sets-and-themes-database?resource=download
